@@ -11,7 +11,7 @@
     Article.fetchAll(articleView.initIndexPage);
 
     articlesController.index = function() {
-      $('main > section').hide();
+      $('#about').hide();
       $('#articles').show();
       console.log('NO TREBLE');
     };

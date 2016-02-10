@@ -48,7 +48,7 @@
     });
   };
 
-  // TODO: Once the routes are handling / and /about, we can delete this handleMainNav function. YESSSS!
+  //  Once the routes are handling / and /about, we can delete this handleMainNav function. YESSSS!
   // Remeber to also remove any calls to this function.
   /*articleView.handleMainNav = function() {
     $('.main-nav').on('click', '.tab', function(e) {
