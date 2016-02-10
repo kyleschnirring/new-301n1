@@ -57,7 +57,7 @@
     });
 
     $('.main-nav .tab:first').click();
-  };
+  };*/
 
   articleView.setTeasers = function() {
     $('.article-body *:nth-of-type(n+2)').hide();
@@ -67,7 +67,7 @@
       $(this).parent().find('*').fadeIn();
       $(this).hide();
     });
-  };*/
+  };
 
   articleView.initNewArticlePage = function() {
     $('.tab-content').show();
