@@ -5,7 +5,13 @@
 
   repos.requestRepos = function(callback) {
     // TODO: How would you like to fetch your repos? Don't forget to call the callback.
-
+    $.get("/github/users/kyleschnirring/repos", function (response, error) {
+      if (error) {
+        console.log(error);
+      }
+      console.log(response);
+      callback(response);
+    });
   };
 
   // DONE: Model method that filters the full collection for repos with a particular attribute.
